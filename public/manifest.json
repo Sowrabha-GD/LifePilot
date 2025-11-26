@@ -1,0 +1,37 @@
+{
+  "name": "LifePilot – Smart Day Planner",
+  "short_name": "LifePilot",
+  "description": "Plan your day intelligently with mood-based task management",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f3ed",
+  "theme_color": "#5ca376",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/placeholder.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/placeholder.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Add Task",
+      "url": "/dashboard",
+      "description": "Quickly add a new task"
+    },
+    {
+      "name": "Today's Plan",
+      "url": "/dashboard",
+      "description": "View today's schedule"
+    }
+  ]
+}
