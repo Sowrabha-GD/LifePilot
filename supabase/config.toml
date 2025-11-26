@@ -1,0 +1,13 @@
+project_id = "irrkqfxjxzwrktckgozs"
+
+[functions.google-oauth-callback]
+verify_jwt = false
+
+[functions.sync-calendar]
+verify_jwt = true
+
+[functions.calculate-travel]
+verify_jwt = true
+
+[functions.send-push]
+verify_jwt = false
